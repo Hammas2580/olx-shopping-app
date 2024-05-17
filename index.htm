@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OLX WEBSITE</title>
+    <!--  bootstrap files -->
+    <link
+      rel="stylesheet"
+      href="./bootstrap class/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="./stylesheet/style.css" />
+    <link rel="stylesheet" href="./stylesheet/responsive.css" />
+    <!--  fonts awesome  cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section   -->
+
+    <section class="header_wrapper ">
+      <div class="container">
+        <div class="d-flex" style="gap: 4rem">
+          <div class="header-images">
+            <img src="./assets/images/download (1).png" alt="" />
+          </div>
+
+          <div class="header-icons mt-3">
+            <span class="fa-solid fa-car"></span>
+            <span class="nav-tab">Motors</span>
+          </div>
+
+          <div class="header-icons mt-3">
+            <span class="fa-solid fa-house"></span>
+            <span class="nav-tab" style="gap: 5px">Property</span>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-3">
+              <div class="header_drowpdown">
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="" class="drowpdown-list">
+                    Pakistan
+                  </option>
+                  <option>Use Current Location</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-12 col-12 col-sm-12 col-lg-7">
+              <div class="header_input">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationCustom01"
+                  value=""
+                  placeholder="Find Cars, Phone, Mobil and more...."
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="col-12 col-12 col-md-12 col-lg-2">
+              <div class="header_button">
+                <a href="" class="main-login">Login</a>
+                <!-- <button type="submit" class="main-btn">+ SELL</button> -->
+                <a href="" class="main-btn"><span>+</span> SELL</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="w-100" />
+      </div>
+    </section>
+    <!--  navbar sectio  -->
+    <section class="navbar_wrapper">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+          <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                ALL CATEGORIES
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">
+                  Mobile Phones</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Cars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Motorcycles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Houses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Video-Audios </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"> Tablets</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Land & Plots</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!--  slider section -->
+    <section class="slider_wrapper">
+      <div class="container">
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/images/452144240-800x600.webp" class="d-block w-100 img-fluid img-thambnail" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/452144240-800x600.webp" class="d-block w-100 img-fluid img-thambnail" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/assets/images/452144240-800x600.webp" class="d-block w-100 img-fluid img-thambnail" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </section>
+    <!-- bootstrap file for java script -->
+    <script src="./bootstrap class/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
+    <!--  java script main file -->
+    <script src="./java/main.js"></script>
+  </body>
+</html>

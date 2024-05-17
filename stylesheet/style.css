@@ -1,0 +1,191 @@
+/*  fonts start */
+@font-face {
+  font-family: robboto;
+  src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+/*  font end */
+body {
+  max-width: 95% !important;
+  margin: 0px !important;
+}
+* {
+  box-sizing: border-box !important;
+}
+.row {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+/*  global class */
+:root {
+  /*  text color */
+  --back-color: #002f34;
+  /*  background color */
+  --bg-black: #002f34;
+}
+/*  header section  */
+
+.header_wrapper .header-images img {
+  height: 80px !important;
+}
+.header_wrapper .nav-tab {
+  font-family: robboto !important;
+  font-weight: 700 !important;
+  line-height: 2rem;
+  font-size: 1rem !important;
+}
+.header-icons .fa-car {
+  padding: 15px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 47, 52, 0.16),
+    rgba(0, 47, 52, 0.01) 81.77%,
+    rgba(0, 47, 52, 0.01)
+  );
+  text-align: center !important;
+  cursor: pointer !important;
+}
+.header-icons .fa-house {
+  padding: 15px !important;
+  border-radius: 50% !important;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 47, 52, 0.16),
+    rgba(0, 47, 52, 0.01) 81.77%,
+    rgba(0, 47, 52, 0.01)
+  );
+  cursor: pointer !important;
+}
+.header-icons:hover {
+  color: #3a77ff !important;
+  cursor: pointer !important;
+}
+.header-icons .fa-car:hover {
+  color: #ebf1ff !important;
+}
+.header_drowpdown .form-select {
+  padding: 13px !important;
+  outline-color: none !important;
+  font-weight: 400 !important;
+  box-shadow: none !important;
+}
+.header_drowpdown .form-select:focus {
+  border-color: aqua !important;
+}
+.header_input .form-control {
+  width: 100% !important;
+  padding: 13px !important;
+  box-shadow: none !important;
+}
+.header_input .form-control:focus {
+  border-color: aqua !important;
+}
+.fa-location-dot {
+  font-size: 50px !important;
+}
+.header_button .main-login {
+  padding: 15px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  text-decoration: none !important;
+  color: var(--bg-black) !important;
+  border-bottom: 2px solid #002f34 !important;
+}
+.header_button .main-login:hover {
+  border-bottom: none !important;
+}
+.main-btn span {
+  margin-right: 0.4rem !important;
+}
+.header_button .main-btn {
+  width: 100px !important;
+  padding: 5px 10px !important;
+  display: inline-block !important;
+  font-weight: 700 !important;
+  margin-left: 10px !important;
+  background-image: url(../assets/images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg) !important;
+  text-decoration: none !important;
+  text-align: center !important;
+  height: 49px !important;
+  color: var(--back-color) !important;
+}
+.header_button .main-btn span {
+  font-weight: 900 !important;
+  font-size: 20px !important;
+  text-align: center !important;
+}
+.header_input .fa-magnifying-glass {
+  margin-top: 10px !important;
+}
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.form-group .form-control {
+  padding-left: 2.375rem;
+}
+
+.form-group .form-control-icon {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+/*  navbar section  */
+.navbar-nav .dropdown-toggle {
+  font-weight: 700 !important;
+  color: var(--back-color) !important;
+  color: #002f34;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.nav-item .nav-link {
+  font-size: 1rem !important;
+  /* display: -webkit-box; */
+  /* display: -ms-flexbox; */
+  /* display: flex; */
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  /* align-items: center; */
+  color: #002f34;
+  text-align: center !important;
+}
+.navbar .navbar-toggler {
+  margin-left: 20px !important;
+  border: 1px solid var(--back-color) !important;
+  box-shadow: none !important;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 47, 52, 0.16),
+    rgba(0, 47, 52, 0.01) 81.77%,
+    rgba(0, 47, 52, 0.01)
+  );
+}
+.navbar .navbar-toggler .navbar-toggler-icon {
+  font-size: 1.5rem !important;
+  font-weight: 900 !important;
+  color: var(--back-color) !important;
+}
+/* slider section */
+.slider_wrapper .carousel-inner .carousel-item img{
+  width: 100% !important;
+  max-height: 400px !important;
+  overflow: auto !important;
+}
