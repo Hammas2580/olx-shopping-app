@@ -24,7 +24,7 @@
   <body>
     <!-- header section   -->
 
-    <section class="header_wrapper ">
+    <section class="header_wrapper">
       <div class="container">
         <div class="d-flex" style="gap: 4rem">
           <div class="header-images">
@@ -92,7 +92,7 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-          <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
@@ -104,7 +104,7 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                ALL CATEGORIES
+                  ALL CATEGORIES
                 </a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="#">Action</a></li>
@@ -115,7 +115,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="#">
+                <a class="nav-link" aria-current="page" href="#">
                   Mobile Phones</a
                 >
               </li>
@@ -145,28 +145,43 @@
     <!--  slider section -->
     <section class="slider_wrapper">
       <div class="container">
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="./assets/images/452144240-800x600.webp" class="d-block w-100 img-fluid img-thambnail" alt="...">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="./assets/images/452144240-800x600.webp"
+                class="d-block w-100 img-fluid img-thambnail"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="./assets/images/452144240-800x600.webp"
+                class="d-block w-100 img-fluid img-thambnail"
+                alt="..."
+              />
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/images/452144240-800x600.webp" class="d-block w-100 img-fluid img-thambnail" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="/assets/images/452144240-800x600.webp" class="d-block w-100 img-fluid img-thambnail" alt="...">
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
     </section>
     <!-- bootstrap file for java script -->
     <script src="./bootstrap class/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
