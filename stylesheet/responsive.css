@@ -56,6 +56,10 @@
     align-items: center !important;
     padding-left: 20px !important;
   }
+  /*  footer section */
+  .footer_text h6{
+    padding: 10px !important;
+  }
 }
 
 /*  media query 767 */
@@ -63,9 +67,7 @@
   .navbar .navbar-toggler {
     width: 100% !important;
   }
-  /*  all item */
-  .images-item {
-  }
+  
   /*  mobile section */
   .card {
     width: 100% !important;
@@ -131,6 +133,14 @@
   .footer_text {
     margin-left: 10px !important;
     margin-top: -30px !important;
+    text-align: center !important;
+  }
+  /*  end section */
+  .main-header h5{
+    text-align: center !important;
+
+  }
+  .main-header li{
     text-align: center !important;
   }
  
