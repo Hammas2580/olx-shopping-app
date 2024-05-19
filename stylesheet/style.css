@@ -79,7 +79,7 @@ body {
   cursor: pointer !important;
 }
 .header-icons .fa-car:hover {
-  color: #ebf1ff !important;
+  /* color: #ebf1ff !important; */
 }
 .header_drowpdown .form-select {
   padding: 13px !important;
@@ -174,14 +174,10 @@ body {
 }
 .nav-item .nav-link {
   font-size: 1rem !important;
-  /* display: -webkit-box; */
-  /* display: -ms-flexbox; */
-  /* display: flex; */
   width: 100%;
   height: 100%;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  /* align-items: center; */
   color: #002f34;
   text-align: center !important;
 }
@@ -214,7 +210,7 @@ body {
   padding-top: 20px !important;
 }
 .slider_image img {
-  height: 100px !important;
+  height: 80px !important;
 }
 /*  all items */
 .categories_section {
@@ -228,7 +224,7 @@ body {
   font-weight: 700;
 }
 .images-item {
-  /* margin: 1rem 0.4rem; */
+  margin: 1rem 0.4rem;
   height: 180px !important;
 }
 .main-item img {
@@ -268,7 +264,6 @@ body {
   width: 100% !important;
   margin-bottom: 15px !important;
   margin-top: 15px !important;
-  height: auto !important;
 }
 .card img {
   height: 200px !important;
@@ -301,10 +296,13 @@ h6 {
   color: #002f34;
 }
 .inner-card {
-  font-size: 0.955rem !important;
+  font-size: 0.79rem !important;
 }
 .outer-card {
   font-size: 0.8rem !important;
+}
+.card-icon {
+  margin-bottom: -20px !important;
 }
 .card-icon .fa-heart {
   width: 100% !important;
@@ -342,4 +340,83 @@ h6 {
   line-height: 2rem;
   font-weight: 700;
   margin-left: 15px !important;
+}
+/*  house section */
+.house_section {
+  margin: 25px !important;
+}
+.house_section .all-item span {
+  color: #002f34;
+  text-align: center;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-left: 15px !important;
+}
+/*  video-audia section */
+.video-audia-section {
+  margin: 25px !important;
+}
+.video-audia-section .all-item span {
+  color: #002f34;
+  text-align: center;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-left: 15px !important;
+}
+/*  tables section */
+.tables_section {
+  margin: 25px !important;
+}
+.tables_section .all-item span {
+  color: #002f34;
+  text-align: center;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-left: 15px !important;
+}
+/*  land plot section */
+.land-plot_section {
+  margin: 25px !important;
+}
+.land-plot_section .all-item span {
+  color: #002f34;
+  text-align: center;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-left: 15px !important;
+}
+/*  jobs section */
+.job-section {
+  margin: 25px !important;
+}
+.job-section .all-item span {
+  color: #002f34;
+  text-align: center;
+  margin: 0;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 700;
+  margin-left: 15px !important;
+}
+/*  adss section */
+.adds_image {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  padding-top: 20px !important;
+}
+.adds_image img {
+  height: 260px !important;
+}
+/*  footer section */
+.footer_wrapper{
+
 }
