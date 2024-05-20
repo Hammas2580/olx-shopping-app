@@ -420,20 +420,19 @@ h6 {
 .footer-section {
   width: 100% !important;
   background: rgba(0, 47, 52, 0.03);
-  /* margin: 28px !important; */
+  margin: 20px !important;
 }
-.olx-app-image{
+.olx-app-image {
   height: auto !important;
   width: 100px !important;
 }
-.footer_content h2{
+.footer_content h2 {
   margin: 2.8rem 0 1.6rem;
-    font-size: 2rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    white-space: nowrap;
+  font-size: 2rem;
+  font-weight: 700;
+  white-space: nowrap;
 }
-.footer_content p{
+.footer_content p {
   font-size: 1rem;
 }
 .footer_text {
@@ -441,14 +440,12 @@ h6 {
 }
 .footer_imge {
   margin-left: 3.2rem;
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important  ;
 }
 .footer_imge img {
   width: 8rem;
   height: 3rem;
+  text-align: center !important;
 }
-.footer_header{
+.footer_header {
   margin-top: 60px !important;
 }

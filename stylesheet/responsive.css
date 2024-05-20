@@ -124,7 +124,14 @@
     align-items: center !important;
     padding-left: 20px !important;
   }
-  .olx-app-image{
+  /*  footer images */
+  .olx-app-image {
     display: none !important;
   }
+  .footer_text {
+    margin-left: 10px !important;
+    margin-top: -30px !important;
+    text-align: center !important;
+  }
+ 
 }
