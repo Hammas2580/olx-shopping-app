@@ -143,5 +143,15 @@
   .main-header li{
     text-align: center !important;
   }
+  .footer{
+    margin: 10px !important;
+  }
+  .footer_content p{
+    text-align: center !important;
+  }
+   .font-footer{
+   text-align: center !important;
+  
+  }
  
 }

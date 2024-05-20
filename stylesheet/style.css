@@ -155,6 +155,9 @@ body {
   pointer-events: none;
   color: #aaa;
 }
+option{
+  padding: 10px; /* Aap apni marzi se padding value adjust kar sakte hain */
+}
 /*  navbar section  */
 .navbar-nav .dropdown-toggle {
   font-weight: 700 !important;
@@ -433,13 +436,13 @@ h6 {
   white-space: nowrap;
 }
 .footer_content p {
-  font-size: 1rem;
+  font-size: 1rem !important;
 }
 .footer_text {
-  margin-left: 3.2rem;
+  margin-left: 3.2rem !important;
 }
 .footer_imge {
-  margin-left: 3.2rem;
+  margin-left: 3.2rem !important;
 }
 .footer_imge img {
   width: 8rem;
@@ -484,6 +487,11 @@ h6 {
   background-color: #002f34;
   color: #fff;
   text-align: right;
-  margin: 15px !important;
+  margin: 20px !important;
+
+}
+.bg-footer p{
+  font-weight: 300 !important;
+  margin-right: .8rem;
 
 }
