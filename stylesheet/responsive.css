@@ -7,13 +7,25 @@
     margin-bottom: -10px !important;
   }
   /*  mobile section */
-  .card{
+  .card {
     width: 100% !important;
     margin-bottom: 15px !important;
     margin-top: 10px !important;
-
+  }
+  .card-text {
+    width: 100% !important;
+    margin: 5px !important;
+  }
+  /*  ads section */
+  .adds_image img {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 20px !important;
   }
 }
+
 /*  media query 976 */
 @media (max-width: 976px) {
   .header_button .main-btn {
@@ -36,23 +48,40 @@
     margin: 1rem 0.4rem;
     height: 180px !important;
   }
+  /*  ads section */
+  .adds_image img {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 20px !important;
+  }
 }
+
 /*  media query 767 */
 @media (max-width: 767px) {
   .navbar .navbar-toggler {
     width: 100% !important;
   }
   /*  all item */
-  .images-item{
+  .images-item {
   }
   /*  mobile section */
-   .card{
+  .card {
     width: 100% !important;
     margin-bottom: 15px !important;
     margin-top: 10px !important;
-
+  }
+  /*  ads section */
+  .adds_image img {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 20px !important;
   }
 }
+
 /*   media query 576 */
 @media (max-width: 576px) {
   .header_drowpdown {
@@ -82,11 +111,20 @@
     padding-right: 20px !important;
   }
   /*  mobile section */
-  .card{
+  .card {
     width: 100% !important;
     margin-bottom: 15px !important;
     margin-top: 10px !important;
-
   }
- 
+  /*  adds images */
+  .adds_image img {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding-left: 20px !important;
+  }
+  .olx-app-image{
+    display: none !important;
+  }
 }

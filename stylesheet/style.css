@@ -417,6 +417,38 @@ h6 {
   height: 260px !important;
 }
 /*  footer section */
-.footer_wrapper{
-
+.footer-section {
+  width: 100% !important;
+  background: rgba(0, 47, 52, 0.03);
+  /* margin: 28px !important; */
+}
+.olx-app-image{
+  height: auto !important;
+  width: 100px !important;
+}
+.footer_content h2{
+  margin: 2.8rem 0 1.6rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+.footer_content p{
+  font-size: 1rem;
+}
+.footer_text {
+  margin-left: 3.2rem;
+}
+.footer_imge {
+  margin-left: 3.2rem;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important  ;
+}
+.footer_imge img {
+  width: 8rem;
+  height: 3rem;
+}
+.footer_header{
+  margin-top: 60px !important;
 }
