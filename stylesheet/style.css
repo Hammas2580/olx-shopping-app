@@ -7,6 +7,7 @@
 body {
   max-width: 95% !important;
   margin: 0px !important;
+  overflow-x: auto !important;
 }
 * {
   box-sizing: border-box !important;
@@ -23,14 +24,7 @@ body {
   --bg-black: #002f34;
 }
 /*  header section  */
-/* .header_wrapper{
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding: 10px 0;
-  z-index:  !important;
 
-} */
 .header_wrapper {
   background-color: #fff;
   position: sticky;
@@ -40,7 +34,7 @@ body {
 }
 
 .container {
-  /* padding: 10px 20px; */
+  padding: 10px 20px !important;
 }
 .header_wrapper .header-images img {
   height: 80px !important;
@@ -155,7 +149,7 @@ body {
   pointer-events: none;
   color: #aaa;
 }
-option{
+option {
   padding: 10px; /* Aap apni marzi se padding value adjust kar sakte hain */
 }
 /*  navbar section  */
@@ -423,11 +417,10 @@ h6 {
 .footer-section {
   width: 100% !important;
   background: rgba(0, 47, 52, 0.03);
-  margin: 20px !important;
+  margin: 25px !important;
 }
 .olx-app-image {
   height: auto !important;
-  width: 100px !important;
 }
 .footer_content h2 {
   margin: 2.8rem 0 1.6rem;
@@ -488,10 +481,8 @@ h6 {
   color: #fff;
   text-align: right;
   margin: 20px !important;
-
 }
-.bg-footer p{
+.bg-footer p {
   font-weight: 300 !important;
-  margin-right: .8rem;
-
+  margin-right: 0.8rem;
 }

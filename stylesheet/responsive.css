@@ -1,11 +1,5 @@
 /*  hader section start */
 @media (max-width: 1400px) {
-  .header_button .main-btn {
-    margin-left: 80px !important;
-  }
-  .header_button {
-    margin-bottom: -10px !important;
-  }
   /*  mobile section */
   .card {
     width: 100% !important;
@@ -57,7 +51,7 @@
     padding-left: 20px !important;
   }
   /*  footer section */
-  .footer_text h6{
+  .footer_text h6 {
     padding: 10px !important;
   }
 }
@@ -67,7 +61,7 @@
   .navbar .navbar-toggler {
     width: 100% !important;
   }
-  
+
   /*  mobile section */
   .card {
     width: 100% !important;
@@ -127,31 +121,32 @@
     padding-left: 20px !important;
   }
   /*  footer images */
-  .olx-app-image {
-    display: none !important;
-  }
+
   .footer_text {
     margin-left: 10px !important;
     margin-top: -30px !important;
     text-align: center !important;
   }
+  .footer_content h2{
+    text-align: center !important;
+  }
+  .footer_image_section {
+    text-align: center !important;
+  }
   /*  end section */
-  .main-header h5{
-    text-align: center !important;
-
-  }
-  .main-header li{
+  .main-header h5 {
     text-align: center !important;
   }
-  .footer{
+  .main-header li {
+    text-align: center !important;
+  }
+  .footer {
     margin: 10px !important;
   }
-  .footer_content p{
+  .footer_content p {
     text-align: center !important;
   }
-   .font-footer{
-   text-align: center !important;
-  
+  .font-footer {
+    text-align: center !important;
   }
- 
 }
