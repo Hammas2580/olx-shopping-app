@@ -1,15 +1,18 @@
 /*  hader section start */
 @media (max-width: 1400px) {
+
   /*  mobile section */
   .card {
     width: 100% !important;
     margin-bottom: 15px !important;
     margin-top: 10px !important;
   }
+
   .card-text {
     width: 100% !important;
     margin: 5px !important;
   }
+
   /*  ads section */
   .adds_image img {
     width: 100% !important;
@@ -25,23 +28,28 @@
   .header_button .main-btn {
     margin-top: 10px !important;
   }
+
   .header_drowpdown .form-select {
     margin-bottom: 10px !important;
   }
+
   /*  slider section */
   .slider_wrapper .carousel-inner .carousel-item img {
     width: 100% !important;
     height: 300px !important;
     overflow: auto !important;
   }
+
   .navbar .navbar-toggler {
     width: 100% !important;
   }
+
   /*  all item */
   .images-item {
     margin: 1rem 0.4rem;
     height: 180px !important;
   }
+
   /*  ads section */
   .adds_image img {
     width: 100% !important;
@@ -50,39 +58,50 @@
     align-items: center !important;
     padding-left: 20px !important;
   }
+
   /*  footer section */
   .footer_text h6 {
     padding: 10px !important;
   }
+
   .footer_text {
     margin-left: 10px !important;
     margin-top: -30px !important;
     text-align: center !important;
   }
-  .footer_content h2{
+
+  .footer_content h2 {
     text-align: center !important;
   }
+
   .footer_image_section {
     text-align: center !important;
-  } 
+  }
+
   .main-header h5 {
     text-align: center !important;
   }
+
   .main-header li {
     text-align: center !important;
   }
+
   .footer {
     margin: 10px !important;
   }
+
   .footer_content p {
     text-align: center !important;
   }
+
   .font-footer {
     text-align: center !important;
   }
+
   .footer_imge {
     text-align: center !important;
   }
+
   .olx-app-image {
     text-align: center !important;
 
@@ -101,6 +120,7 @@
     margin-bottom: 15px !important;
     margin-top: 10px !important;
   }
+
   /*  ads section */
   .adds_image img {
     width: 100% !important;
@@ -109,33 +129,42 @@
     align-items: center !important;
     padding-left: 20px !important;
   }
+
   /*  footer section */
-  .footer_content h2{
+  .footer_content h2 {
     text-align: center !important;
   }
+
   .footer_image_section {
     text-align: center !important;
   }
-  .footer_text h6{
+
+  .footer_text h6 {
     text-align: center !important;
   }
-  .olx-app-image img{
+
+  .olx-app-image img {
     text-align: center !important;
     margin-right: 100px !important;
   }
+
   /*  end section */
   .main-header h5 {
     text-align: center !important;
   }
+
   .main-header li {
     text-align: center !important;
   }
+
   .footer {
     margin: 10px !important;
   }
+
   .footer_content p {
     text-align: center !important;
   }
+
   .font-footer {
     text-align: center !important;
   }
@@ -146,35 +175,43 @@
   .header_drowpdown {
     /* width: 110% !important; */
   }
+
   .navbar .navbar-toggler {
     width: 100% !important;
   }
+
   /*  slider section */
   .slider_wrapper .carousel-inner .carousel-item img {
     width: 100% !important;
     text-align: center !important;
     height: 120px !important;
   }
+
   .carousel-inner {
     padding-left: 10px !important;
   }
+
   .slider_image {
     /* padding-left: 100px !important; */
     text-align: center !important;
   }
+
   .slider_image img {
     height: 100px !important;
   }
+
   /*  all item */
   .imgaes_content span {
     padding-right: 20px !important;
   }
+
   /*  mobile section */
   .card {
     width: 100% !important;
     margin-bottom: 15px !important;
     margin-top: 10px !important;
   }
+
   /*  adds images */
   .adds_image img {
     width: 100% !important;
@@ -183,6 +220,7 @@
     align-items: center !important;
     padding-left: 20px !important;
   }
+
   /*  footer images */
 
   .footer_text {
@@ -190,29 +228,37 @@
     margin-top: -30px !important;
     text-align: center !important;
   }
-  .footer_content h2{
+
+  .footer_content h2 {
     text-align: center !important;
   }
+
   .footer_image_section {
     text-align: center !important;
   }
+
   /*  end section */
   .main-header h5 {
     text-align: center !important;
   }
+
   .main-header li {
     text-align: center !important;
   }
+
   .footer {
     margin: 10px !important;
   }
+
   .footer_content p {
     text-align: center !important;
   }
+
   .font-footer {
     text-align: center !important;
   }
-  .olx-app-image{
+
+  .olx-app-image {
     display: none !important;
   }
 }

@@ -3,19 +3,23 @@
   font-family: robboto;
   src: url(../assets/fonts/Roboto/Roboto-Regular.ttf);
 }
+
 /*  font end */
 body {
-  max-width: 95% !important;
+  max-width: 100% !important;
   margin: 0px !important;
-  overflow-x: auto !important;
+  overflow-x: hidden !important;
 }
+
 * {
   box-sizing: border-box !important;
 }
+
 .row {
   margin: 0px !important;
   padding: 0px !important;
 }
+
 /*  global class */
 :root {
   /*  text color */
@@ -23,6 +27,7 @@ body {
   /*  background color */
   --bg-black: #002f34;
 }
+
 /*  header section  */
 
 .header_wrapper {
@@ -36,65 +41,77 @@ body {
 .container {
   padding: 10px 20px !important;
 }
+
 .header_wrapper .header-images img {
   height: 80px !important;
 }
+
 .header_wrapper .nav-tab {
   font-family: robboto !important;
   font-weight: 700 !important;
   line-height: 2rem;
   font-size: 1rem !important;
 }
+
 .header-icons .fa-car {
   padding: 15px !important;
   border-radius: 50% !important;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 47, 52, 0.16),
-    rgba(0, 47, 52, 0.01) 81.77%,
-    rgba(0, 47, 52, 0.01)
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 47, 52, 0.16),
+      rgba(0, 47, 52, 0.01) 81.77%,
+      rgba(0, 47, 52, 0.01));
   text-align: center !important;
   cursor: pointer !important;
 }
+
 .header-icons .fa-house {
   padding: 15px !important;
   border-radius: 50% !important;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 47, 52, 0.16),
-    rgba(0, 47, 52, 0.01) 81.77%,
-    rgba(0, 47, 52, 0.01)
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 47, 52, 0.16),
+      rgba(0, 47, 52, 0.01) 81.77%,
+      rgba(0, 47, 52, 0.01));
   cursor: pointer !important;
 }
+
 .header-icons:hover {
   color: #3a77ff !important;
   cursor: pointer !important;
 }
+
 .header-icons .fa-car:hover {
   /* color: #ebf1ff !important; */
 }
+
 .header_drowpdown .form-select {
   padding: 13px !important;
   outline-color: none !important;
   font-weight: 400 !important;
   box-shadow: none !important;
 }
+
 .header_drowpdown .form-select:focus {
   border-color: aqua !important;
 }
+
 .header_input .form-control {
   width: 100% !important;
   padding: 13px !important;
   box-shadow: none !important;
 }
+
 .header_input .form-control:focus {
   border-color: aqua !important;
 }
+
 .fa-location-dot {
   font-size: 50px !important;
 }
+
+.navbar_wrapper {
+  margin-top: -33px;
+}
+
 .header_button .main-login {
   padding: 15px !important;
   font-size: 1rem !important;
@@ -103,12 +120,15 @@ body {
   color: var(--bg-black) !important;
   border-bottom: 2px solid #002f34 !important;
 }
+
 .header_button .main-login:hover {
   border-bottom: none !important;
 }
+
 .main-btn span {
   margin-right: 0.4rem !important;
 }
+
 .header_button .main-btn {
   width: 100px !important;
   padding: 5px 10px !important;
@@ -116,19 +136,24 @@ body {
   font-weight: 700 !important;
   margin-left: 10px !important;
   background-image: url(../assets/images/iconSellBorder_noinline.d9eebe038fbfae9f90fd61d971037e02.svg) !important;
+  background-position: center !important;
+  background-size: cover !important;
   text-decoration: none !important;
   text-align: center !important;
   height: 49px !important;
   color: var(--back-color) !important;
 }
+
 .header_button .main-btn span {
   font-weight: 900 !important;
   font-size: 20px !important;
   text-align: center !important;
 }
+
 .header_input .fa-magnifying-glass {
   margin-top: 10px !important;
 }
+
 .main {
   width: 50%;
   margin: 50px auto;
@@ -149,9 +174,12 @@ body {
   pointer-events: none;
   color: #aaa;
 }
+
 option {
-  padding: 10px; /* Aap apni marzi se padding value adjust kar sakte hain */
+  padding: 10px;
+  /* Aap apni marzi se padding value adjust kar sakte hain */
 }
+
 /*  navbar section  */
 .navbar-nav .dropdown-toggle {
   font-weight: 700 !important;
@@ -169,6 +197,7 @@ option {
   -ms-flex-align: center;
   align-items: center;
 }
+
 .nav-item .nav-link {
   font-size: 1rem !important;
   width: 100%;
@@ -178,41 +207,46 @@ option {
   color: #002f34;
   text-align: center !important;
 }
+
 .navbar .navbar-toggler {
   margin-left: 20px !important;
   border: 1px solid var(--back-color) !important;
   box-shadow: none !important;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 47, 52, 0.16),
-    rgba(0, 47, 52, 0.01) 81.77%,
-    rgba(0, 47, 52, 0.01)
-  );
+  background: linear-gradient(180deg,
+      rgba(0, 47, 52, 0.16),
+      rgba(0, 47, 52, 0.01) 81.77%,
+      rgba(0, 47, 52, 0.01));
 }
+
 .navbar .navbar-toggler .navbar-toggler-icon {
   font-size: 1.5rem !important;
   font-weight: 900 !important;
   color: var(--back-color) !important;
 }
+
 /* slider section */
 .slider_wrapper .carousel-inner .carousel-item img {
   width: 100% !important;
   max-height: 400px !important;
   overflow: auto !important;
 }
+
 .slider_image {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   padding-top: 20px !important;
 }
+
 .slider_image img {
   height: 80px !important;
 }
+
 /*  all items */
 .categories_section {
   margin: 25px !important;
 }
+
 .categories_section .all-item span {
   text-align: center;
   margin: 0;
@@ -220,16 +254,20 @@ option {
   line-height: 2rem;
   font-weight: 700;
 }
+
 .images-item {
   margin: 1rem 0.4rem;
   height: 180px !important;
 }
+
 .main-item img {
   height: 100px !important;
 }
+
 .main-item img p {
   margin: 10px !important;
 }
+
 .imgaes_content {
   padding-bottom: 20px !important;
   display: flex !important;
@@ -244,10 +282,12 @@ option {
   font-weight: 700;
   color: #222;
 }
+
 /*  mobile section */
 .mobile_section {
   margin: 25px !important;
 }
+
 .mobile_section .all-item span {
   color: #002f34;
   text-align: center;
@@ -257,17 +297,21 @@ option {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 .card {
   width: 100% !important;
   margin-bottom: 15px !important;
   margin-top: 15px !important;
 }
+
 .card img {
   height: 200px !important;
 }
+
 .card-body {
   line-height: 20px !important;
 }
+
 .card-body .card-title {
   width: calc(100% - 3rem);
   font-weight: 700;
@@ -275,6 +319,7 @@ option {
   overflow: hidden;
   font-size: 1rem;
 }
+
 .card-body .card-text {
   max-height: 4rem;
   overflow: hidden;
@@ -286,21 +331,27 @@ option {
   letter-spacing: 0;
   color: #002f34;
 }
+
 .card-text span {
   color: #002f34;
 }
+
 h6 {
   color: #002f34;
 }
+
 .inner-card {
   font-size: 0.79rem !important;
 }
+
 .outer-card {
   font-size: 0.8rem !important;
 }
+
 .card-icon {
   margin-bottom: -20px !important;
 }
+
 .card-icon .fa-heart {
   width: 100% !important;
   height: 100% !important;
@@ -309,13 +360,16 @@ h6 {
   font-size: 1.5rem !important;
   display: inline-block !important;
 }
+
 .fa-heart:hover {
   color: red !important;
 }
+
 /*  cars section */
 .cars_section {
   margin: 25px !important;
 }
+
 .cars_section .all-item span {
   color: #002f34;
   text-align: center;
@@ -325,10 +379,12 @@ h6 {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 /*  bike section */
 .bike_section {
   margin: 25px !important;
 }
+
 .bike_section .all-item span {
   color: #002f34;
   text-align: center;
@@ -338,10 +394,12 @@ h6 {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 /*  house section */
 .house_section {
   margin: 25px !important;
 }
+
 .house_section .all-item span {
   color: #002f34;
   text-align: center;
@@ -351,10 +409,12 @@ h6 {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 /*  video-audia section */
 .video-audia-section {
   margin: 25px !important;
 }
+
 .video-audia-section .all-item span {
   color: #002f34;
   text-align: center;
@@ -364,10 +424,12 @@ h6 {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 /*  tables section */
 .tables_section {
   margin: 25px !important;
 }
+
 .tables_section .all-item span {
   color: #002f34;
   text-align: center;
@@ -377,10 +439,12 @@ h6 {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 /*  land plot section */
 .land-plot_section {
   margin: 25px !important;
 }
+
 .land-plot_section .all-item span {
   color: #002f34;
   text-align: center;
@@ -390,10 +454,12 @@ h6 {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 /*  jobs section */
 .job-section {
   margin: 25px !important;
 }
+
 .job-section .all-item span {
   color: #002f34;
   text-align: center;
@@ -403,6 +469,7 @@ h6 {
   font-weight: 700;
   margin-left: 15px !important;
 }
+
 /*  adss section */
 .adds_image {
   display: flex !important;
@@ -410,69 +477,85 @@ h6 {
   align-items: center !important;
   padding-top: 20px !important;
 }
+
 .adds_image img {
   height: 260px !important;
 }
+
 /*  footer section */
 .footer-section {
   width: 100% !important;
-  background: rgba(0, 47, 52, 0.03);
-  margin: 25px !important;
+  /* background: rgba(0, 47, 52, 0.03); */
+  /* margin: 25px !important; */
 }
+
 .olx-app-image {
   height: auto !important;
 }
+
 .footer_content h2 {
   margin: 2.8rem 0 1.6rem;
   font-size: 2rem;
   font-weight: 700;
   white-space: nowrap;
 }
+
 .footer_content p {
   font-size: 1rem !important;
 }
+
 .footer_text {
   margin-left: 3.2rem !important;
 }
+
 .footer_imge {
   margin-left: 3.2rem !important;
 }
+
 .footer_imge img {
   width: 8rem;
   height: 3rem;
   text-align: center !important;
 }
+
 .footer_header {
   margin-top: 60px !important;
 }
+
 /*  main-footer section */
 .main-header h5 {
   font-weight: 700 !important;
   font-size: 0.9rem !important;
 }
+
 .main-header ul li {
   font-size: 0.8rem !important;
   color: rgba(0, 47, 52, 0.64);
   text-decoration: none;
   cursor: pointer;
 }
+
 .main-header ul li:hover {
   color: #222 !important;
 }
+
 .footer_content p {
   font-weight: 700 !important;
   font-size: 0.9rem !important;
 }
+
 .font-footer span .fa-brands {
   width: 2rem !important;
   color: rgba(0, 47, 52, 0.64);
   cursor: pointer !important;
 }
+
 .footer_image_section img {
   width: 7rem;
   height: 2.5rem;
   margin-top: 20px !important;
 }
+
 /*  end section */
 .footer {
   width: 100% !important;
@@ -480,8 +563,9 @@ h6 {
   background-color: #002f34;
   color: #fff;
   text-align: right;
-  margin: 20px !important;
+  /* margin: 20px !important; */
 }
+
 .bg-footer p {
   font-weight: 300 !important;
   margin-right: 0.8rem;
